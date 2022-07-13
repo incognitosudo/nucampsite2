@@ -4,14 +4,23 @@ body {
 
 h1, h2, h3 {
     font-family: "Lobster", cursive;
+    margin-left: 20px;
+  
 }
 
 h2 {
     color: #3046C5;
+    
 }
 
 header h2 {
     color: #CEC8FF;
+    
+}
+
+p {
+    margin-left: 20px;
+
 }
 
 footer {
@@ -20,6 +29,7 @@ footer {
 }
 
 .jumbotron {
+    margin: 0;
     padding: 10px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
@@ -29,7 +39,7 @@ footer {
     padding: 20px 0;
     border-bottom: 0px ridge;
     min-height: 165px;
-    margin-left: 20px;
+
 
 }
 .row-content2 {
@@ -38,4 +48,9 @@ footer {
     min-height: 165px;
     margin-left: 20px;
     margin-right: 1200px;
+}
+
+
+.navbar {
+    background-color: #901CAD;
 }
