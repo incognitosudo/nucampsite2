@@ -58,6 +58,7 @@
     "fill-range": "^7.0.1",
     "finalhandler": "^1.1.0",
     "follow-redirects": "^1.15.1",
+    "font-awesome": "^4.7.0",
     "fresh": "^0.5.2",
     "fs-extra": "^3.0.1",
     "fsevents": "^2.3.2",
@@ -150,7 +151,7 @@
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
-    },
+  },
   "author": "",
   "license": "ISC"
 }

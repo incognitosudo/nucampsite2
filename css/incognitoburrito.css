@@ -11,18 +11,18 @@ h2 {
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: goldenrod;
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(black, #3046C5, #60106B);
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 10px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
+    background-image: linear-gradient(to right, black, #3046C5, #60106B);
+    color: goldenrod;
 }
 
 .row-content {
@@ -38,4 +38,8 @@ footer {
     min-height: 165px;
     margin-left: 20px;
     margin-right: 1200px;
+}
+
+.background {
+    color: goldenrod;
 }
