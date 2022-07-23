@@ -30,7 +30,7 @@ p {
 
 .jumbotron {
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
 }
