@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <met name="viewport" content="width=device-width, initial-scale=1" />
     <met http-equiv=""x-ua-compatible" content=""ie=edge" />
-
 
     <!-- Boostrap CSS-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -19,7 +17,6 @@
     <title>NuCamp: A Better Way To Camp</title>
 </head>
 <body>
-
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
@@ -35,17 +32,15 @@
  <!--Reserve Campsite-->              
                 <!--<div class="row"> -->
                     <!--div class="col-md-12 col-xl-12" style="margin-top: 40px; padding-right: 40px"-->
-                    <div class="col-md-4 col-xl-4 mt-4">
-                        
-                        <a href="#reserveForm2" role="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#reserveForm2" data-placement="bottom" >Reserve campsite</a>
-                        
+                    <div class="col-md-4 col-xl-4 mt-4">                       
+                        <a href="#reserveForm" role="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#reserveForm" data-placement="bottom" >Reserve campsite</a>                    
                     </div>
                 </div>             
             </div>
     </header>
     
 <!--FORM Modal Starts-->
-<div id="reserveForm2" class="modal fade" role="dialog">
+<div id="reserveForm" class="modal fade" role="dialog">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
             <div class="modal-header text-light bg-info">
@@ -56,7 +51,7 @@
                 <div class="container-fluid">
                     <form>
                         <div class="form-group row">
-                            <label for="numCampers" class="col-sm-5 col-form-label">Number of Campers </label>
+                            <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers </label>
                                 <div class="col-sm-6 col-form-label">
                                     <select name="numCampers" id="numCampers" class="col-sm-12 form-control">
                                         <option value="1">Select...</option>
@@ -71,23 +66,38 @@
                         </div>
                         <!---Date div-->
                         <div class="form-group row">
-                            <label for="date" class="col-sm-5 col-form-label">Date</label>
-                                <div class="col-sm-6 col-form-label">
-                                    <input type="date" id="date" placeholder="date" class="col-sm-12 form-control">
+                            <label for="date" class="col-sm-6 col-form-label">Date</label>
+                            <div class="col-sm-6 col-form-label">
+                                <input type="date" id="date" placeholder="date" class="col-sm-12 form-control">              
+                            </div>                                                                      
+                        </div>                    
+                        <!--Date end div-->
+                        <!--Campsite Site Starts here-->
+                        <div class="form-group row">                                                          
+                                <label for="campsiteSite" class="col-form-label col-sm-6">Campsite Site</label> 
+                                <!--Radio Starts Here-->
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-success">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Tent
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> RV 
+                                    </label>
                                 </div>
-                            
-                        </div>
-                        <!--end div-->
-                        <div class="form-group row">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary col-form-label">
-                                    Cancel
-                                </button>
-                                <button type="submit" class="btn btn-primary col-form-label">
-                                    Search
-                                </button>
-                            </div>
-                        </div>
+                                <!--Radio Ends Here-->                                                                                         
+                        </div> 
+                        <!--Campsite Site Ends Here--> 
+                        <!--Cancel and search starts here-->
+                            <div class="align-items-right">
+                            <button type="submit" class="btn btn-secondary">
+                                Cancel
+                            </button>
+                            <button type="submit" class="btn btn-primary">
+                                Search
+                            </button>
+                            </div>                                        
+                        </div> 
+                        <!--Cancel and search ends here-->  
                     </form>
                 </div>
             </div>
