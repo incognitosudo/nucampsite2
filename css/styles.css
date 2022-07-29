@@ -39,9 +39,8 @@ p {
     padding: 20px 0;
     border-bottom: 0px ridge;
     min-height: 165px;
-
-
 }
+
 .row-content2 {
     padding: 20px 0;
     border-bottom: 0px ridge;
@@ -59,7 +58,6 @@ p {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
-
 }
 
 .carousel-caption {
@@ -68,4 +66,11 @@ p {
 
 .carousel {
     border: solid#5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
