@@ -12,3 +12,15 @@ $(function() {
         }
     });
 });
+
+$(function() {
+    $("#reserveButton").click(function(){
+        $("#reserveForm").modal("show");
+    });
+});
+
+$(function() {
+    $("#loginButton").click(function(){
+        $("#loginModal").modal("show");
+    });
+});

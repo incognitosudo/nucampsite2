@@ -36,7 +36,7 @@ header h2 {
   background-color: #901CAD; }
 
 .tab-content {
-  border: 1px solid #DDD;
+  border: 1px solid #5d2c2c;
   border-top: none;
   padding: 10px; }
 
@@ -51,3 +51,13 @@ header h2 {
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+#reserveForm .modal-header {
+  background-color: #17A2B8; }
+  #reserveForm .modal-header h3 {
+    color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD; }
+  #loginModal .modal-header h3 {
+    color: white; }
